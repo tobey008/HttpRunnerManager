@@ -437,3 +437,23 @@ Traceback (most recent call last):
 ValueError: invalid literal for int() with base 10: '����_quant_login_out(����ǳ�)'
 2018-07-02 14:59:50,449 [HttpRunnerManager:78] [views:log_out] [INFO]- yinquanwang�˳�
 2018-07-02 14:59:52,333 [HttpRunnerManager:45] [views:login] [INFO]- yinquanwang ��¼�ɹ�
+2019-03-25 17:29:51,793 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2019-03-25 17:31:22,962 [HttpRunnerManager:35] [operation:add_register_data] [INFO]- 新增用户：ApiManager.UserInfo.objects
+2019-03-25 17:31:30,590 [HttpRunnerManager:60] [views:login] [INFO]- 975652006@qq.com 登录失败, 请检查用户名或者密码
+2019-03-25 17:31:32,962 [HttpRunnerManager:60] [views:login] [INFO]- 975652006@qq.com 登录失败, 请检查用户名或者密码
+2019-03-25 17:31:39,481 [HttpRunnerManager:55] [views:login] [INFO]- root 登录成功
+2019-03-25 17:33:02,590 [HttpRunnerManager:89] [views:log_out] [INFO]- root退出
+2019-03-25 17:33:26,543 [HttpRunnerManager:32] [operation:add_register_data] [DEBUG]- 975652006@qq.com 昵称已被其他用户注册
+2019-03-25 17:33:33,807 [HttpRunnerManager:35] [operation:add_register_data] [INFO]- 新增用户：ApiManager.UserInfo.objects
+2019-03-25 17:33:43,265 [HttpRunnerManager:55] [views:login] [INFO]- tester1 登录成功
+2019-03-25 17:33:57,606 [HttpRunnerManager:89] [views:log_out] [INFO]- tester1退出
+2019-03-25 17:33:59,371 [HttpRunnerManager:55] [views:login] [INFO]- root 登录成功
+2019-03-25 17:34:37,663 [HttpRunnerManager:62] [operation:add_project_data] [INFO]- 项目添加成功：{'project_name': 'nonobank', 'responsible_name': 'tester1', 'test_user': 'tester1', 'dev_user': 'none', 'publish_app': 'helloworld', 'simple_desc': '....', 'other_desc': ''}
+2019-03-25 17:35:00,237 [HttpRunnerManager:76] [operation:add_project_data] [INFO]- 项目更新成功：{'project_name': 'nonobank', 'responsible_name': 'tester1', 'test_user': 'tester1', 'dev_user': 'none', 'publish_app': 'helloworld', 'simple_desc': '....', 'other_desc': ''}
+2019-03-25 17:35:07,150 [HttpRunnerManager:76] [operation:add_project_data] [INFO]- 项目更新成功：{'project_name': 'nonobank', 'responsible_name': 'tester1', 'test_user': 'tester1', 'dev_user': 'none', 'publish_app': 'helloworld', 'simple_desc': '....', 'other_desc': ''}
+2019-03-25 17:36:33,559 [HttpRunnerManager:110] [operation:add_module_data] [INFO]- 模块添加成功：{'module_name': '登录', 'test_user': 'tester1', 'simple_desc': '', 'other_desc': '', 'belong_project': <ProjectInfo: ProjectInfo object (1)>}
+2019-03-25 17:39:54,219 [HttpRunnerManager:154] [operation:add_case_data] [INFO]- 注册登录用例添加成功: {'test': {'request': {'url': '', 'method': 'POST'}, 'name': '注册登录'}}
+2019-03-25 17:41:49,605 [HttpRunnerManager:55] [views:login] [INFO]- tester1 登录成功
+2019-03-25 19:11:20,209 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2019-03-25 19:17:05,051 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2019-03-25 19:17:51,915 [HttpRunnerManager:55] [views:login] [INFO]- root 登录成功
