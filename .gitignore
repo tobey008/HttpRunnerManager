@@ -12,3 +12,7 @@ Test Report.html
 ApiManager/templatetags/*.pyc
 ApiManager/utils/__pycache__/
 ApiManager/templatetags/__pycache__/
+debug.py
+website.txt
+readlist.txt
+ __pycache__/
