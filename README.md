@@ -152,6 +152,14 @@ MockServer：https://github.com/yinquanwang/MockServer
 
 因时间限制，平台可能还有很多潜在的bug，使用中如遇到问题，欢迎issue,
 如果任何疑问好好的建议欢迎github提issue, 或者可以直接加群(628448476)，反馈会比较快
+* TODO-List
+ + `python3`使用`pymysql`代替`mysqldb`
+    ```python
+    # HttpRunnerManager/__init__.py
+    import pymysql
+    pymysql.install_as_MySQLdb()
+ 
+    ```
 
 
 
